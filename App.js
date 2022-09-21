@@ -9,7 +9,9 @@ import {
   // textButton, 
   addItem, 
   color,
+  FlatList,
 } from 'react-native';
+import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 // import { AddTask, CustomModal } from ´./components/index´;
 const styles = StyleSheet.create({
@@ -42,13 +44,13 @@ export default function App() {
   <View style= {styles.container}> 
     <View style={styles.inputContainer}>
       <TextInput placeholder="Galería1"/>
-      <Button title={"Hola mundo"} onPress={addItem} color={color}/>
+      <Button title={"Hola mundo"} onPress={FocusEvent} color={color}/>
       <TextInput placeholder="Galería2"/>
-      <Button title={"Hola mundo"} onPress={addItem} color={color}/>
+      <Button title={"Hola mundo"} onPress={FocusEvent} color={color}/>
       <TextInput placeholder="Galería3"/>
-      <Button title={"Hola mundo"} onPress={addItem} color={color}/>
+      <Button title={"Hola mundo"} onPress={FocusEvent} color={color}/>
       <TextInput placeholder="Galería4"/>
-      <Button title={"Hola mundo"} onPress={addItem} color={color}/>
+      <Button title={"Hola mundo"} onPress={FocusEvent} color={color}/>
     </View> 
   </View>
   );
